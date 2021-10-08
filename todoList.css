@@ -1,0 +1,196 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    /*text-align: center;*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+
+  background-image: url("image/1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:center;
+  -webkit-background-size:cover;
+ 
+}
+
+
+
+@media only screen and (min-width:100px){
+
+    .mainStuf{
+    
+         position:absolute; 
+          top: 50%; 
+      
+          transform: translate(-50%, -50%);
+          left: 50%;
+          width: 400px;
+          background: rgb(238, 255, 175);
+          padding: 20px;
+          margin-left: 10px;
+      
+      }
+/*Cancel button   */
+      #cancel{
+          color: red;
+      }
+#cancel:active{
+color:blue;
+}
+#cancel:hover{
+    color:green;
+    }
+
+
+
+    /*Add Task button   */
+    #addTaskBtn{
+        color:blue;
+    }
+
+    #addTaskBtn:active{
+        color:green;
+    }
+
+    #addTaskBtn:hover{
+        color:red;
+    }
+
+
+    #clear-all-items{
+       color:palevioletred; 
+       display: none;
+    }
+
+
+    #check-items{
+        color:yellowgreen;
+        display: none;
+    }
+
+
+    #clear-checked-item{
+        color:rosybrown;
+        display: none;
+    }
+
+
+    #reloadApp{
+        margin-left: 320px;
+        color: brown;
+        display: none;
+    }
+
+    #sabiDance{
+        text-decoration: none;
+    }
+
+
+   .deleteBtn{
+       background: none;
+       outline: none;
+       margin: 0 0.05rem;
+       color: red;
+       border: none;
+       margin-left: 100px;
+   }
+
+   .deleteBtn:hover{
+    color: green;
+}
+}
+
+@media only screen and (min-width:720px){
+.mainStuf{
+    
+     position:absolute; 
+      top: 50%; 
+  
+      transform: translate(-50%, -50%);
+      left: 50%;
+      width: 400px;
+      background: rgb(238, 255, 175);
+      padding: 20px;
+      margin-left: 100px;
+  
+  }
+
+  /*Cancel button   */
+  #cancel{
+    background-color: red;
+    color: white;
+   
+}
+#cancel:active{
+    background-color:blue;
+    color: white;
+}
+#cancel:hover{
+    background-color:green;
+    color: white;
+}
+
+
+
+/*Add Task button   */
+#addTaskBtn{
+    background-color:blue;
+    color: white;
+}
+
+#addTaskBtn:active{
+    background-color:green;
+    color: white;
+}
+
+#addTaskBtn:hover{
+    background-color:red;
+    color: white;
+}
+
+
+#clear-all-items{
+    display: none;
+    background-color:palevioletred; 
+    color: white;
+}
+
+
+#check-items{
+    display: none;
+    background-color:yellowgreen;
+    color: white;
+}
+
+
+#clear-checked-item{
+    display: none;
+  background-color:rosybrown;
+  color: white;
+}
+
+
+
+#reloadApp{
+    margin-left: 320px;
+    color: brown;
+    display: none;
+    background-color: white;
+ 
+}
+
+#sabiDance{
+    text-decoration: none;
+}
+}
+
+
+
+.divBack{
+    background-color: rgb(168, 177, 156);
+    height: 100px;
+    width: 250;
+}
